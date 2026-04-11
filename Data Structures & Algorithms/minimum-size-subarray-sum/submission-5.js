@@ -37,6 +37,8 @@ class Solution {
             }
         }
 
+        console.log("Length ",length)
+
         return length === Number.POSITIVE_INFINITY ? 0 : length
     }
 }
